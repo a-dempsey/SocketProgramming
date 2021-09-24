@@ -13,7 +13,8 @@ nameip = gethostbyname(domainName)
 # set values for host 'localhost' - meaning this machine and port number 10000
 server_address = (domainName, 10000)
 # output to terminal some info on the address details
-print('*** Server is starting up on %s port %s***' % server_address)print("*** IP: %s ***" % ip)
+print('*** Server is starting up on %s port %s***' % server_address)
+print("*** IP: %s ***" % ip)
 # Bind the socket to the host and portsock.bind(server_address)
 # Listen for one incoming connections to the
 serversock.listen(1)
